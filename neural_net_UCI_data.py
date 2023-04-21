@@ -1,7 +1,6 @@
 from typing import Tuple
 from neural import *
 
-
 def parse_line(line: str) -> Tuple[List[float], List[float]]:
     """Splits line of CSV into inputs and output (transormfing output as appropriate)
 
